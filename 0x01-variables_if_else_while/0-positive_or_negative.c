@@ -1,15 +1,15 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-#include <stdio.h>
 
 /**
- * main - Generates a random number and tells
- * if number is positive, negative or zero
- * @n: The random number that is generated
+ * main - main block
+ * Description: Get a random number and print the number
+ * and if it is positive, negative, or zero
  *
  * Return: 0 if the code runs successfully
  */
+
 int main(void)
 {
 	int n;
