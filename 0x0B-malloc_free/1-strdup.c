@@ -17,7 +17,7 @@ char *_strdup(char *str)
 
 	/* get the length of the string parameter */
 	strLen = 0;
-	while (str[strLen] != "\0")
+	while (str[strLen] != '\0')
 		strLen++;
 
 	/* allocate memory for the string */
