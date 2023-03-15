@@ -21,7 +21,7 @@ char *_strdup(char *str)
 		strLen++;
 
 	/* allocate memory for the string */
-	dup = malloc(sizeof(char) * strLen);
+	dup = malloc(sizeof(char) * strLen + 1);
 
 	/* duplicate string parameter to the new memory */
 	for (i = 0; str[i]; i++)
