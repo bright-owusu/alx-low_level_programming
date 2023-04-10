@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * print_binary - Prints the binary representation of a number.
+ * @n: The number to convert to binary.
+ *
+ * Return: Nothing
+ */
 void print_binary(unsigned long int n)
 {
 	int i;
